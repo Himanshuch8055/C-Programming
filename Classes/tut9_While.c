@@ -2,15 +2,23 @@
 
 int main()
 {
+    int a = 0;
+    while (a < 20)
+    {
+        printf("%d\n", a);
+        a++;
+    }
+
+    // By user input
+
     int num, index = 0;
     printf("Enter the value: ");
     scanf("%d", &num);
-
-    do
+    while (index < num)
     {
         printf("%d\n", index);
-        index = index + 1;
-    } while (index < num);
+        index++;
+    }
 
     return 0;
 }
