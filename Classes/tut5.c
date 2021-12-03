@@ -32,8 +32,11 @@ int main()
     printf("\n Welcome to \"The C Programming tutorial\"");
     printf("\n Welcome to \'C programming series \'") ;
     printf("Hello \t Viewers");
-    printf("Hello Viewers");
-    printf("\v Welcome to C Programming");
+    printf("Hello Viewers\n");
+    printf("\v Welcome to C Programming\n");
+    printf("\v Welcome to C Programming\n");
+    printf("\v Welcome to C Programming\n");
+    printf("\v Welcome to C Programming\n");
 
 
     return 0;
