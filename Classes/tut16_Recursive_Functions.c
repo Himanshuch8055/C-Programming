@@ -1,0 +1,20 @@
+#include <stdio.h>
+int factorial(int number)
+{
+    if (number == 1 || number == 0)
+    {
+        return 1;
+    }
+    else
+        return (number * factorial(number - 1));
+
+    return 0;
+}
+int main()
+{
+    int num;
+    printf("Enter the number do you want to factorial:- ");
+    scanf("%d", &num);
+    printf("The factorial of %d is %d:- \n", num, factorial(num));
+    return 0;
+}
