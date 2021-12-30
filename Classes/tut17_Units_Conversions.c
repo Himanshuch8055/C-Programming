@@ -56,28 +56,18 @@ restart:
         printf("%f Meters in %f Inches.\n", meters, inches);
         break;
 
+    case 0:
+        goto exit;
+
     default:
         printf("NO CASE MATCH ENTER RIGHT OPTION.\n");
         break;
     }
     int i;
-    printf("To More Conversion prass 9: \n To exit prass 0:");
+    printf("Enter Any Number To Continue:-");
     scanf("%d", &i);
-    switch (restart)
-    {
-    case 0:
-    printf("*");
-        goto exit;
-        break;
+    goto restart;
 
-    case 9:
-        goto restart;
-        break;
-    
-    default:
-        break;
-    }
-        // goto restart;
 exit:
     return 0;
 }
