@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main (){
+int main()
+{
     printf("%lu\n", sizeof(int));
     printf("%lu\n", sizeof(float));
     printf("%lu\n", sizeof(char));

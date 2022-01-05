@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
@@ -9,7 +9,7 @@ int main()
     printf("Enter the value of b:");
     scanf("%d", &b);
 
-    printf("sum is a+b:%d", a+b);
+    printf("sum is a + b:- %d", a + b);
     // scanf("%d", &a+b);
 
     return 0;

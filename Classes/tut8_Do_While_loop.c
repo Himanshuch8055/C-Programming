@@ -9,7 +9,7 @@ int main()
     do
     {
         printf("%d\n", index);
-        index = index + 1;
+        index++;
     } while (index < num);
 
     return 0;

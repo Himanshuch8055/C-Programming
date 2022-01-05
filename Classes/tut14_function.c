@@ -1,6 +1,6 @@
 // // With Arguments and With return value
-// #include <stdio.h>
-// int sum(int a, int b);
+// #include<stdio.h>
+// // int sum1(int a, int b);
 // // int sum(int a, int b)
 // // {
 // //     return a + b;
@@ -14,7 +14,7 @@
 //     // b = 87;
 //     printf("Enter the value of B:- ");
 //     scanf("%d", &b);
-//     c = sum(a, b);
+//     // c = sum1(a, b);
 //     printf("The sum of A and B:- %d \n", c);
 //     // c = takenumber();
 //     // printf("The number entered is %d \n", c);
@@ -26,24 +26,24 @@
 // }
 
 // // With Arguments and Without return value
-// #include<stdio.h>
-// void printstar()
-// {
-//     int n;
-//     printf("Enter the number:- ");
-//     scanf("%d", &n);
-//     for (int i = 0; i < n; i++)
-//     {
-//         printf("%c", '*');
-//     }
-// }
-// int main ()
-// {
-//     printstar();
-//     return 0;
-// }
+#include <stdio.h>
+void printstar()
+{
+    int n;
+    printf("Enter the number:- ");
+    scanf("%d", &n);
+    for (int i = 0; i < n; i++)
+    {
+        printf("%c", '*');
+    }
+}
+int main()
+{
+    printstar();
+    return 0;
+}
 
-// Without Arguments and With return value
+// // Without Arguments and With return value
 // #include <stdio.h>
 
 // int takenumber()
@@ -63,50 +63,59 @@
 // }
 
 // Without Arguments and Without return value
-#include <stdio.h>
-#include <conio.h>
-void sum();
+// #include <stdio.h>
+// #include <conio.h>
+// void sum();
+// // {
+// //     int k;
+// //     printf("Enter the Number:- ");
+// //     scanf("%d", &k);
+// // }
+// int main()
 // {
-//     int k;
-//     printf("Enter the Number:- ");
-//     scanf("%d", &k);
+//     // int l;
+//     // l = hello();
+//     // printf("Your entered Number is:- %d", l);
+//     sum();
+//     return 0;
 // }
-int main()
-{
-    // int l;
-    // l = hello();
-    // printf("Your entered Number is:- %d", l);
-    sum();
-    return 0;
-}
 
-void sum()
-{
-    int a, b, c;
-    printf("Enter The Number:- ");
-    scanf("%d", &a);
-    printf("Enter The Number:- ");
-    scanf("%d", &b);
-    c = a = b;
-    printf("Sum of A and B is:- %d", c);
-}
+// void sum()
+// {
+//     int a, b, c;
+//     printf("Enter The Number:- ");
+//     scanf("%d", &a);
+//     printf("Enter The Number:- ");
+//     scanf("%d", &b);
+//     c = a + b;
+//     printf("Sum of A and B is:- %d", c);
+// }
 
-#include <stdio.h>
-#include <conio.h>
+// #include <stdio.h>
+// #include <conio.h>
 
-void sum();
+// void sum();
 
-int main()
-{
-    sum();
-    return 0;
-}
+// int main()
+// {
+//     sum();
+//     return 0;
+// }
 
-void sum()
-{
-    int a, b, c;
-    printf("enter two numbers\n");
-    scanf("%d%d", &a, &b);
-    c = a + b;
-    printf("the sum of two numbers is\n%d", c);
-}
+// void sum()
+// {
+//     int a, b, c;
+//     printf("enter two numbers\n");
+//     scanf("%d%d", &a, &b);
+//     c = a + b;
+//     printf("the sum of two numbers is\n%d", c);
+// }
+
+// #include<stdio.h>
+
+// int main()
+// {
+//     printf("Hello world");
+
+//     return 0;
+// }
