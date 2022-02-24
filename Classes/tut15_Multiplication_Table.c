@@ -2,6 +2,7 @@
 
 int main()
 {
+    printf("-----Multiplication Table Printer-----\n");
     int num;
     printf("Enter the Number:- ");
     scanf("%d", &num);

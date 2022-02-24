@@ -5,12 +5,12 @@ int main()
     int conversion, restart;
     float kilometers, miles, pound, inches, feet, centimeters, meters, kilogram;
 restart:
-    printf("1. Kilometers To Miles\n");
-    printf("2. Inches To Feet\n");
-    printf("3. Centimeters To Inches\n");
-    printf("4. Pound To Kilogram\n");
-    printf("5. Inches To Meters\n");
-    printf("0. To exit\n");
+    printf("(i).   Kilometers To Miles   [enter (1)]\n");
+    printf("(ii).  Inches To Feet        [enter (2)]\n");
+    printf("(iii). Centimeters To Inches [enter (3)]\n");
+    printf("(iv).  Pound To Kilogram     [enter (4)]\n");
+    printf("(v).   Inches To Meters      [enter (5)]\n");
+    printf("(vi).  To exit               [enter (0)]\n");
     printf("Which type of Conversion do you want to do:- ");
     scanf("%d", &conversion);
 
