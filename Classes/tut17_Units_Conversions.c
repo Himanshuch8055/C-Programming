@@ -63,10 +63,18 @@ restart:
         printf("NO CASE MATCH ENTER RIGHT OPTION.\n");
         break;
     }
+
     int i;
-    printf("Enter Any Number To Continue:-");
+    printf("Enter Any Number To Continue Otherwise Enter 0 to Exit:-");
     scanf("%d", &i);
-    goto restart;
+    if (i == 0)
+    {
+        goto exit;
+    }
+    else
+    {
+        goto restart;
+    }
 
 exit:
     return 0;
